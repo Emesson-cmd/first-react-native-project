@@ -1,0 +1,51 @@
+
+/**
+ const Header = () => {
+    return (
+        // Código do componente
+    )
+ }
+ export default Header
+
+ --> export default Header = () => {
+    return (
+        // Código do componente
+    )
+ }
+
+ --------- OU ----------
+
+ function Header () {
+    return (
+        // Código do componente
+    )
+ }
+
+ export default Header
+
+ --> export default function Header () {
+    return (
+        // Código do componente
+    )
+ }
+
+  --------- OU ----------
+
+  class Header extends React.Component{
+    render(){
+        return(
+            // Código do componente
+        )
+    }
+  }
+
+  export default Header
+
+  -->   export default class Header extends React.Component{
+    render(){
+        return(
+            // Código do componente
+        )
+    }
+  }
+ */
